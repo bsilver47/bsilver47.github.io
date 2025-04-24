@@ -1,0 +1,125 @@
+* {
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    background: lightblue;
+    /* text-align: left; */
+    /* display: flex;
+    justify-content: flex-start; */
+    /* white-space: 40px; */
+    /* word-spacing: 40px; */
+    /* padding-inline: 40px; */
+}
+
+nav a {
+    padding-left: 4em;
+}
+
+body {
+    text-align: center;
+    /* justify-content: center; */
+    color: darkblue;
+    background: silver;
+    display: inline;
+}
+
+/* body article {
+    border: double;
+} */
+
+h1 {
+    border: double;
+    border-spacing: 1em;
+    border-radius: 1em;
+    border-width:;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    list-style: none;
+    background: lightblue;
+    text-align: left;
+    /* display: flex;
+    justify-content: flex-start; */
+    display: table;
+}
+
+.navbar li {
+    /* display: inline-block; */
+    display: table-cell;
+    /* width: 20%; */
+    padding: 20px;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+}
+
+.edu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+    width: 79%;
+}
+
+.edu tr td:last-of-type {
+    width: 33%;
+    font-size: 0.7em;
+}
+
+.exp {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+    width: 47%;
+}
+
+.last {
+    padding-bottom: 1em;
+}
+
+#theDate {
+    font-size: 0.8em;
+}
+
+p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p span {
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+div a {
+    padding: 0.5em;
+    display: block;
+}
+
+footer {
+    padding: 1em;
+}
+
+.spc-weather {
+    position: fixed;
+    right: 0;
+    display: block;
+    align-self: right;
+    justify-content: right;
+}
+
+li {
+    list-style: disc;
+    list-style-position: inherit;
+}
+
+li span {
+    font-weight: bold;
+}
