@@ -123,3 +123,14 @@ li {
 li span {
     font-weight: bold;
 }
+
+.resources tr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.resources tr td {
+    padding: 2rem;
+}
+
